@@ -1,0 +1,20 @@
+:root{
+    --colorBlack: #1C110A;
+    --colorBlueDark: #118ab2;
+    --colorGreen: #06D6A0;
+    --colorYellow: #FFD166;
+    --colorPink: #EF476F;
+    --colorBlackSecond: #323439;
+}
+form{
+    width: 80%;
+    margin: 20px auto 10px;
+    text-align: center;
+}
+.textfield{
+    width: 40%;
+    height: 30px;
+    padding-left: 10px;
+    color: var(--colorBlack);
+    text-align: center;
+}

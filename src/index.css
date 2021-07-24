@@ -1,30 +1,57 @@
+:root{
+    --colorBlack: #1C110A;
+    --colorBlueDark: #118ab2;
+    --colorGreen: #06D6A0;
+    --colorYellow: #FFD166;
+    --colorPink: #EF476F;
+    --colorBlackSecond: #323439;
+}
 *{
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 body{
-  padding: 60px;
+  background-color: var(--colorBlack);
+  font-family: Roboto;
 }
-
-input{
+.text{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: var(--colorYellow);
+}
+h4{
+  margin-top: 10px;
+  text-align: center;
+  color: var(--colorYellow);
+}
+.container{
+  width: 95%;
+  margin: 25px auto 0;
+  text-align: center;
+}
+.card {
+  height: 300px;
+  width: 20px;
+  border: 1px solid gray;
+  text-align: center;
+  border-radius:  6px;
+  overflow: hidden;
+}
+.loading{
+  color: var(--colorYellow);
+  text-align: center;
+}
+img{
+  width: 100%;
+}
+/* input{
   font-size: 1.2rem;
   color: gray;
   width: 100%;
 }
-.card-grid{
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.card {
- 
-  border: 1px solid gray;
-  border-radius:  6px;
-  overflow: hidden;
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
 
 .card p{
   padding: 5px;
-}
+} */
